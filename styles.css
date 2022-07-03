@@ -1,0 +1,181 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+.container{
+    color: grey;
+}
+
+body {overflow-x: hidden;}
+
+
+#home{
+    background-color: aqua;
+    padding: 15%;
+background-color: #C1A975;
+    background-attachment: fixed;
+    background-position: 50px;
+    display: flex;
+    flex: wrap;
+}
+
+#rcorners2 {
+    border-radius: 25px;
+    border: 6px solid  #C1A975;
+    padding: 25px; 
+    width: 100%;
+    height: 240px;  
+    background-color: #C1A975;
+  }
+
+  .product {
+	margin-bottom: 30px;
+}
+.product-inner {
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+	padding: 10px;
+}
+.product img {
+	margin-bottom: 10px;
+}
+
+#title-name{
+  
+    color: #FFEFCA
+    
+}
+
+h5{
+    color: #004CAF;
+}
+
+h1{
+    color: #FFEFCA;
+}
+
+ul {
+    list-style-type: none;
+  };
+
+#container1{
+ 
+    border: 10px solid #C1A975;
+}
+
+#properties {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C1A975;
+  }
+  .property-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    color: black;
+    width: 30%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 1px 1px 8px black;
+    text-align: center;
+  }
+  .card p {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+/* Footer */
+#footer{
+    background-color:  #C1A975;
+    padding: 5px;
+}
+
+
+.fa-brands{
+    color: #C1A975;
+}
+
+
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.1rem 0 0;
+}
+
+.socials li{
+    margin: 0 17px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i{
+    font-size: 6rem;
+    transition: color .4s ease;
+    border: black;
+}
+
+.socials a:hover{
+    color: #00fbff;
+}
+
+  /* Icon hover FX */
+ /* .fa-facebook:hover{
+    color:rgb(66, 13, 13)  !important;
+    opacity: unset;
+ }
+
+ .fa-linkedin-in:hover{
+    color:rgb(66, 13, 13)  !important;
+    opacity: unset;
+ }
+
+ .fa-google-plus-g:hover{
+    color: rgb(66, 13, 13)  !important;
+    opacity: unset;
+ }
+
+ .fa-github:hover{
+    color:rgb(66, 13, 13) !important;
+    opacity: unset;
+ }
+
+ .fa-google:hover{
+    color:rgb(66, 13, 13) !important;
+    opacity: unset;
+ }
+
+
+ 
+ .fa-map-marker:hover{
+    color:rgb(66, 13, 13) !important;
+    opacity: unset;
+ }
+
+
+.fa-heart{
+    color: red;
+}
+
+ */
